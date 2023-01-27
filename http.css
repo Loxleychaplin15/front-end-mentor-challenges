@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    position: relative;
+}
+
+.card-component{
+
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 500px;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 5px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    
+}
+
+#qrcode{
+    border-radius: 10px;
+    width: 220px;
+    height: 250px;
+}
+.top{
+    padding: 10px;
+    
+}
+.bottom{
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 15px;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
